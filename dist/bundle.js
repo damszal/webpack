@@ -9,7 +9,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 
-console.log("hello webpack!");
+console.clear();
 
 var Hello = /*#__PURE__*/function () {
   function Hello() {
@@ -30,18 +30,23 @@ var Hello = /*#__PURE__*/function () {
   return Hello;
 }();
 
-var h = new Hello();
-h.render();
-
-var foo = function foo() {
-  for (var _len = arguments.length, name = new Array(_len), _key = 0; _key < _len; _key++) {
-    name[_key] = arguments[_key];
-  }
-
-  console.log("hello".concat(name));
-};
-
-foo("damian");
+; // Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
+// When documents (especially pretty old ones written with a typewriter), are digitised character recognition softwares often make mistakes.
+// Your task is correct the errors in the digitised text. You only have to handle the following mistakes:
+//     S is misinterpreted as 5
+//     O is misinterpreted as 0
+//     I is misinterpreted as 1
+// The test cases contain numbers only by mistake.
+// function correct([...string])
+// {
+//     return string.map(el=>{
+//         return ((el==="5")?el="S":el) && ((el==="1")?el="I":el)  && ((el==="0")?el="O":el)
+//     }).join("")
+// }
+// correct("DUBL1N")
+// SIMPLEST SOLUTION 
+// const correct = string =>
+//   string.replace(/\d/g, val => `OI   S`[val]);
 /******/ })()
 ;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVuZGxlLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLGdCQUFaOztJQUVNQzs7Ozs7OztXQUNGLGtCQUFTO01BQ0xGLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLE1BQVo7TUFDQSxJQUFNRSxHQUFHLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixRQUF2QixDQUFaO01BQ0FGLEdBQUcsQ0FBQ0csU0FBSixHQUFnQixjQUFoQjtNQUNBLElBQU1DLElBQUksR0FBR0gsUUFBUSxDQUFDSSxhQUFULENBQXVCLE1BQXZCLENBQWI7TUFDQUQsSUFBSSxDQUFDRSxXQUFMLENBQWlCTixHQUFqQjtJQUNIOzs7Ozs7QUFHTCxJQUFNTyxDQUFDLEdBQUcsSUFBSVIsS0FBSixFQUFWO0FBRUFRLENBQUMsQ0FBQ0MsTUFBRjs7QUFFQSxJQUFNQyxHQUFHLEdBQUcsU0FBTkEsR0FBTSxHQUFhO0VBQUEsa0NBQVRDLElBQVM7SUFBVEEsSUFBUztFQUFBOztFQUNyQmIsT0FBTyxDQUFDQyxHQUFSLGdCQUFvQlksSUFBcEI7QUFDSCxDQUZEOztBQUdBRCxHQUFHLENBQUMsUUFBRCxDQUFILEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdGFydC8uL3NyYy9pbmRleC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZyhcImhlbGxvIHdlYnBhY2shXCIpXHJcblxyXG5jbGFzcyBIZWxsbyB7XHJcbiAgICByZW5kZXIoKSB7XHJcbiAgICAgICAgY29uc29sZS5sb2coXCJkdXBhXCIpXHJcbiAgICAgICAgY29uc3QgYnRuID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYnV0dG9uJyk7XHJcbiAgICAgICAgYnRuLmlubmVyVGV4dCA9IFwiZHVtbXkgYnV0dG9uXCI7XHJcbiAgICAgICAgY29uc3QgYm9keSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2JvZHknKTtcclxuICAgICAgICBib2R5LmFwcGVuZENoaWxkKGJ0bik7XHJcbiAgICB9XHJcbn1cclxuXHJcbmNvbnN0IGggPSBuZXcgSGVsbG9cclxuXHJcbmgucmVuZGVyKClcclxuXHJcbmNvbnN0IGZvbyA9ICguLi5uYW1lKSA9PiB7XHJcbiAgICBjb25zb2xlLmxvZyhgaGVsbG8ke25hbWV9YClcclxufVxyXG5mb28oXCJkYW1pYW5cIikiXSwibmFtZXMiOlsiY29uc29sZSIsImxvZyIsIkhlbGxvIiwiYnRuIiwiZG9jdW1lbnQiLCJjcmVhdGVFbGVtZW50IiwiaW5uZXJUZXh0IiwiYm9keSIsInF1ZXJ5U2VsZWN0b3IiLCJhcHBlbmRDaGlsZCIsImgiLCJyZW5kZXIiLCJmb28iLCJuYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVuZGxlLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUFBLE9BQU8sQ0FBQ0MsS0FBUjs7SUFFTUM7Ozs7Ozs7V0FDRixrQkFBUztNQUNMRixPQUFPLENBQUNHLEdBQVIsQ0FBWSxNQUFaO01BQ0EsSUFBTUMsR0FBRyxHQUFHQyxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsUUFBdkIsQ0FBWjtNQUNBRixHQUFHLENBQUNHLFNBQUosR0FBZ0IsY0FBaEI7TUFDQSxJQUFNQyxJQUFJLEdBQUdILFFBQVEsQ0FBQ0ksYUFBVCxDQUF1QixNQUF2QixDQUFiO01BQ0FELElBQUksQ0FBQ0UsV0FBTCxDQUFpQk4sR0FBakI7SUFDSDs7Ozs7O0FBQ0osRUFFRDtBQUVBO0FBRUE7QUFFQTtBQUNBO0FBQ0E7QUFFQTtBQUdBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUVBO0FBR0E7QUFFQTtBQUNBLGlEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc3RhcnQvLi9zcmMvaW5kZXguanMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5jbGVhcigpXHJcblxyXG5jbGFzcyBIZWxsbyB7XHJcbiAgICByZW5kZXIoKSB7XHJcbiAgICAgICAgY29uc29sZS5sb2coXCJkdXBhXCIpXHJcbiAgICAgICAgY29uc3QgYnRuID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYnV0dG9uJyk7XHJcbiAgICAgICAgYnRuLmlubmVyVGV4dCA9IFwiZHVtbXkgYnV0dG9uXCI7XHJcbiAgICAgICAgY29uc3QgYm9keSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2JvZHknKTtcclxuICAgICAgICBib2R5LmFwcGVuZENoaWxkKGJ0bik7XHJcbiAgICB9XHJcbn07XHJcblxyXG4vLyBDaGFyYWN0ZXIgcmVjb2duaXRpb24gc29mdHdhcmUgaXMgd2lkZWx5IHVzZWQgdG8gZGlnaXRpc2UgcHJpbnRlZCB0ZXh0cy4gVGh1cyB0aGUgdGV4dHMgY2FuIGJlIGVkaXRlZCwgc2VhcmNoZWQgYW5kIHN0b3JlZCBvbiBhIGNvbXB1dGVyLlxyXG5cclxuLy8gV2hlbiBkb2N1bWVudHMgKGVzcGVjaWFsbHkgcHJldHR5IG9sZCBvbmVzIHdyaXR0ZW4gd2l0aCBhIHR5cGV3cml0ZXIpLCBhcmUgZGlnaXRpc2VkIGNoYXJhY3RlciByZWNvZ25pdGlvbiBzb2Z0d2FyZXMgb2Z0ZW4gbWFrZSBtaXN0YWtlcy5cclxuXHJcbi8vIFlvdXIgdGFzayBpcyBjb3JyZWN0IHRoZSBlcnJvcnMgaW4gdGhlIGRpZ2l0aXNlZCB0ZXh0LiBZb3Ugb25seSBoYXZlIHRvIGhhbmRsZSB0aGUgZm9sbG93aW5nIG1pc3Rha2VzOlxyXG5cclxuLy8gICAgIFMgaXMgbWlzaW50ZXJwcmV0ZWQgYXMgNVxyXG4vLyAgICAgTyBpcyBtaXNpbnRlcnByZXRlZCBhcyAwXHJcbi8vICAgICBJIGlzIG1pc2ludGVycHJldGVkIGFzIDFcclxuXHJcbi8vIFRoZSB0ZXN0IGNhc2VzIGNvbnRhaW4gbnVtYmVycyBvbmx5IGJ5IG1pc3Rha2UuXHJcblxyXG5cclxuLy8gZnVuY3Rpb24gY29ycmVjdChbLi4uc3RyaW5nXSlcclxuLy8ge1xyXG4vLyAgICAgcmV0dXJuIHN0cmluZy5tYXAoZWw9PntcclxuLy8gICAgICAgICByZXR1cm4gKChlbD09PVwiNVwiKT9lbD1cIlNcIjplbCkgJiYgKChlbD09PVwiMVwiKT9lbD1cIklcIjplbCkgICYmICgoZWw9PT1cIjBcIik/ZWw9XCJPXCI6ZWwpXHJcbi8vICAgICB9KS5qb2luKFwiXCIpXHJcbi8vIH1cclxuXHJcbi8vIGNvcnJlY3QoXCJEVUJMMU5cIilcclxuXHJcblxyXG4vLyBTSU1QTEVTVCBTT0xVVElPTiBcclxuXHJcbi8vIGNvbnN0IGNvcnJlY3QgPSBzdHJpbmcgPT5cclxuLy8gICBzdHJpbmcucmVwbGFjZSgvXFxkL2csIHZhbCA9PiBgT0kgICBTYFt2YWxdKTsiXSwibmFtZXMiOlsiY29uc29sZSIsImNsZWFyIiwiSGVsbG8iLCJsb2ciLCJidG4iLCJkb2N1bWVudCIsImNyZWF0ZUVsZW1lbnQiLCJpbm5lclRleHQiLCJib2R5IiwicXVlcnlTZWxlY3RvciIsImFwcGVuZENoaWxkIl0sInNvdXJjZVJvb3QiOiIifQ==

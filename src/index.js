@@ -13,3 +13,8 @@ class Hello {
 const h = new Hello
 
 h.render()
+
+const foo = (name) => {
+    console.log(`hello${name}`)
+}
+foo("damian")

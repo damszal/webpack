@@ -1,1 +1,1 @@
-console.log("hello webpack!");
+console.log("hello webpack!"),(new class{render(){console.log("dupa");const e=document.createElement("button");e.innerText="dummy button",document.querySelector("body").appendChild(e)}}).render();

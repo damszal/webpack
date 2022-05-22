@@ -1,0 +1,26 @@
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
+  \**************************************************************************************************************************************************/
+body {
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: calc(12px + 9 * ((100vw - 420px) / 860));
+}
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 420px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQ0E7RUFDSTtFQUNBO0VBQUE7RUFBQTtFQUNBO0tBQUE7TUFBQTtVQUFBO0VDSko7QURLQTtBQ0xBO0VBQUE7SUFBQTtHQUFBO0NBQUE7QUFBQTtFQUFBO0lBQUE7R0FBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3N0YXJ0Ly4vc3JjL21haW4uc2NzcyIsIndlYnBhY2s6Ly9zdGFydC88bm8gc291cmNlPiJdLCJzb3VyY2VzQ29udGVudCI6WyJcclxuYm9keXtcclxuICAgIGRpc3BsYXk6IGdyaWQ7XHJcbiAgICB0cmFuc2l0aW9uOiBhbGwgLjVzO1xyXG4gICAgdXNlci1zZWxlY3Q6IG5vbmU7XHJcbiAgICBmb250LXNpemU6IHJlc3BvbnNpdmU7XHJcbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

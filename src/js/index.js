@@ -1,16 +1,8 @@
-import './main.scss'
+import _ from 'lodash';
+import '../main.scss';
 
-console.clear()
+console.log(_.join(['Sum', 'module','loaded!'], ' '))
 
-class Hello {
-    render() {
-        console.log("dupa")
-        const btn = document.createElement('button');
-        btn.innerText = "dummy button";
-        const body = document.querySelector('body');
-        body.appendChild(btn);
-    }
-};
 
 // Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
 

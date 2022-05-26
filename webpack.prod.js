@@ -1,40 +1,25 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common.js');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "production",
-  entry: './src/index.js',
-  devServer: {
-    static: './dist',
-  },
   devtool: 'inline-source-map',
   plugins: [
-    new HtmlWebpackPlugin({
-        title: 'Development',
-      }),
     new MiniCssExtractPlugin(
       {
         filename: '[name].css'
       }
     )
   ],
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
+  // =====>>>>>>> if i add code bellow, the build commend will generate error 
+  // =====>>>>>>> now it has build new file main.js ??? do i need chaknge link in index.html ??
+  // output: {
+  //   filename: 'bundle.js',
+  //   path: path.resolve(__dirname, 'dist'),
+  // },
   module: {
     rules: [
-      {
-        test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      },
       {
           test: /\.scss$/i,
           use:[{

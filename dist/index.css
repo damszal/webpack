@@ -1,0 +1,7 @@
+body{display:grid;-webkit-transition:all .5s;-o-transition:all .5s;transition:all .5s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:calc(12px + 9 * ((100vw - 420px) / 860))}
+@media screen and (min-width: 1280px){
+body{font-size:21px}}
+@media screen and (max-width: 420px){
+body{font-size:12px}}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguY3NzIiwibWFwcGluZ3MiOiJBQUNBLEtBQ0ksYUFDQSxvRUFDQSxxRkNKSixrRERLSTtBQ0xKO0FBQUE7QUFBQTtBQUFBLHFCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc3RhcnQvLi9zcmMvbWFpbi5zY3NzIiwid2VicGFjazovL3N0YXJ0LzxubyBzb3VyY2U+Il0sInNvdXJjZXNDb250ZW50IjpbIlxyXG5ib2R5e1xyXG4gICAgZGlzcGxheTogZ3JpZDtcclxuICAgIHRyYW5zaXRpb246IGFsbCAuNXM7XHJcbiAgICB1c2VyLXNlbGVjdDogbm9uZTtcclxuICAgIGZvbnQtc2l6ZTogcmVzcG9uc2l2ZTtcclxufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/

@@ -1,1 +1,2 @@
-(self.webpackChunkstart=self.webpackChunkstart||[]).push([[644],{72:function(){}},function(n){n(n.s=72)}]);
+(self.webpackChunkstart=self.webpackChunkstart||[]).push([[644],{72:function(n){n.exports=function(n,t){return n+t}}},function(n){n(n.s=72)}]);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3VtLmJ1bmRsZS5qcyIsIm1hcHBpbmdzIjoiZ0ZBR0VBLEVBQU9DLFFBSFQsU0FBYUMsRUFBR0MsR0FDWixPQUFPRCxFQUFJQyxLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc3RhcnQvLi9zcmMvanMvc3VtLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIHN1bShhLCBiKSB7XHJcbiAgICByZXR1cm4gYSArIGI7XHJcbiAgfVxyXG4gIG1vZHVsZS5leHBvcnRzID0gc3VtOyJdLCJuYW1lcyI6WyJtb2R1bGUiLCJleHBvcnRzIiwiYSIsImIiXSwic291cmNlUm9vdCI6IiJ9
